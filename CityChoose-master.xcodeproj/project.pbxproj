@@ -15,6 +15,8 @@
 		74A85EE21E56B6310012D0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A85EE01E56B6310012D0C9 /* LaunchScreen.storyboard */; };
 		74A85EED1E56B6310012D0C9 /* CityChoose_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A85EEC1E56B6310012D0C9 /* CityChoose_masterTests.m */; };
 		74A85EF81E56B6310012D0C9 /* CityChoose_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A85EF71E56B6310012D0C9 /* CityChoose_masterUITests.m */; };
+		74A85F081E56B6AB0012D0C9 /* CityChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A85F071E56B6AB0012D0C9 /* CityChoose.m */; };
+		74A85F0A1E56B6BE0012D0C9 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74A85F091E56B6BE0012D0C9 /* city.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		74A85EF31E56B6310012D0C9 /* CityChoose-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CityChoose-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A85EF71E56B6310012D0C9 /* CityChoose_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityChoose_masterUITests.m; sourceTree = "<group>"; };
 		74A85EF91E56B6310012D0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A85F061E56B6AB0012D0C9 /* CityChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityChoose.h; sourceTree = "<group>"; };
+		74A85F071E56B6AB0012D0C9 /* CityChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityChoose.m; sourceTree = "<group>"; };
+		74A85F091E56B6BE0012D0C9 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		74A85ED11E56B6310012D0C9 /* CityChoose-master */ = {
 			isa = PBXGroup;
 			children = (
+				74A85F051E56B67E0012D0C9 /* CItyChooseView */,
 				74A85ED51E56B6310012D0C9 /* AppDelegate.h */,
 				74A85ED61E56B6310012D0C9 /* AppDelegate.m */,
 				74A85ED81E56B6310012D0C9 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				74A85EF91E56B6310012D0C9 /* Info.plist */,
 			);
 			path = "CityChoose-masterUITests";
+			sourceTree = "<group>";
+		};
+		74A85F051E56B67E0012D0C9 /* CItyChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				74A85F091E56B6BE0012D0C9 /* city.plist */,
+				74A85F061E56B6AB0012D0C9 /* CityChoose.h */,
+				74A85F071E56B6AB0012D0C9 /* CityChoose.m */,
+			);
+			name = CItyChooseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A85EE21E56B6310012D0C9 /* LaunchScreen.storyboard in Resources */,
+				74A85F0A1E56B6BE0012D0C9 /* city.plist in Resources */,
 				74A85EDF1E56B6310012D0C9 /* Assets.xcassets in Resources */,
 				74A85EDD1E56B6310012D0C9 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A85EDA1E56B6310012D0C9 /* ViewController.m in Sources */,
+				74A85F081E56B6AB0012D0C9 /* CityChoose.m in Sources */,
 				74A85ED71E56B6310012D0C9 /* AppDelegate.m in Sources */,
 				74A85ED41E56B6310012D0C9 /* main.m in Sources */,
 			);
